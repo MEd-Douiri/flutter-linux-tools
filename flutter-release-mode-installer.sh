@@ -22,7 +22,6 @@ flutter build bundle -v
             
 
 ###Create libapp.so
- $engine_path/arm/gen_snapshot_linux_x64_release \
-   --snapshot_kind=app-aot-elf  \
-   --elf=build/flutter_assets/libapp.so  \  
-   --strip  build/kernel_snapshot.dill
+ $engine_path/arm/gen_snapshot_linux_x64_release --snapshot_kind=app-aot-elf --elf=build/flutter_assets/libapp.so --strip  build/kernel_snapshot.dill
+
+   
